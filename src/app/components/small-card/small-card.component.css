@@ -1,0 +1,20 @@
+.small-card_card {
+  width: 300px;
+  height: 350px;
+  padding-bottom: 10px;
+  background-color: rgba(20, 19, 17, 0.308);
+}
+
+.small-card_card img {
+  height: 230px;
+  width: 200px;
+}
+
+.btn-small-card-card-price {
+  width: 150px;
+}
+
+.btn-warning {
+  background-color: #CF8123 !important;
+  border: #CF8123;
+}

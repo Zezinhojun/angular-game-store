@@ -1,0 +1,16 @@
+<div class="row d-flex justify-content-center mt-5 me-3">
+  <div class="col d-flex gap-2">
+    <div *ngFor="let jogo of jogos.slice(0, 3)"
+      class="small-card_card card d-flex flex-column justify-content-center align-items-center">
+      <img class="object-fit-cover img-thumbnail" [src]="jogo.image" alt="">
+      <div class="d-flex flex-column justify-content-start container-fluid mt-3">
+        <h6 class="text-white">{{ jogo.title }}</h6>
+        <span class="text-white fw-lighter text-white-50">{{ jogo.platform }}</span>
+      </div>
+      <div class="small-card-card-price d-flex justify-content-around container align-items-end">
+        <h5 class="text-white">${{ jogo.price }}</h5>
+        <button class="btn btn-warning btn-small-card-card-price rounded-pill">{{ 'Buy' }}</button>
+      </div>
+    </div>
+  </div>
+</div>

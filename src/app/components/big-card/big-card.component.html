@@ -1,0 +1,13 @@
+<!-- <div class="d-flex flex-column">
+  <div class="d-flex justify-content-end align-items-center mt-4 me-5 card overflow-hidden ">
+    <img class="big-card_img object-fit-cover overflow-hidden" [src]="bigCardImg" alt="">
+  </div>
+  <app-small-card></app-small-card>
+</div> -->
+
+<div class="d-flex flex-column">
+  <div class="d-flex justify-content-end align-items-center mt-4 me-5 card overflow-hidden">
+    <img class="big-card_img object-fit-cover overflow-hidden" [src]="bigCardImg" alt="">
+  </div>
+  <app-small-card *ngFor="let jogo of jogos.slice(0, 1)" [game]="jogo"></app-small-card>
+</div>
