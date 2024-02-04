@@ -15,6 +15,7 @@ export class SmallCardComponent {
   ngOnInit(): void {
     this.carregarJogos()
   }
+  //só para mudar
 
   carregarJogos() {
     this.jogos = this.gameService.getJogos()
