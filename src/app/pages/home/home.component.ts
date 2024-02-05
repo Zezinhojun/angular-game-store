@@ -19,6 +19,5 @@ export class HomeComponent implements OnInit {
 
   carregarJogos() {
     this.jogos = this.gameService.getJogos()
-    console.log(this.jogos)
   }
 }
