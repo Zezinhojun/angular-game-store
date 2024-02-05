@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # AngularGameStore
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.1.
@@ -59,4 +58,3 @@ Bem-vindo ao meu projeto de estudo em Angular, uma loja de jogos simples e inter
    - Se você deseja contribuir ou sugerir melhorias, fique à vontade para criar pull requests. Este projeto é voltado para aprendizado e colaboração é bem-vinda!
 
 Divirta-se explorando as novas funcionalidades na Loja de Jogos! 🎮✨
->>>>>>> 263e5d6d6d648832a7f69037c63e6cc0a435cd61
